@@ -39,8 +39,11 @@ jobs:
           distribution: "temurin"
           java-version: "21"
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install dependencies (skip lifecycle scripts)
+        run: npm install --ignore-scripts
+
+      - name: Apply patch-package patches
+        run: npx --yes patch-package
 
       - name: Build web assets
         run: npm run build
