@@ -1,0 +1,77 @@
+# .github/workflows/build-apk.yml
+# Builds a Capacitor Android APK and publishes it as a GitHub Release.
+# Triggered manually (workflow_dispatch) OR remotely by Hermes (repository_dispatch).
+
+name: Build Android APK
+
+on:
+  # Lets you run it by hand from the GitHub "Actions" tab
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Why this build was requested"
+        required: false
+        default: "manual build"
+
+  # Lets Hermes trigger it via the GitHub API:
+  #   POST /repos/OWNER/REPO/dispatches  { "event_type": "build-apk" }
+  repository_dispatch:
+    types: [build-apk]
+
+permissions:
+  contents: write        # needed to create a Release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Set up Java (required by Gradle)
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "17"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build web assets
+        run: npm run build
+
+      - name: Sync Capacitor Android
+        run: npx cap sync android
+
+      - name: Build APK (debug — installs without signing, fine for QA)
+        working-directory: android
+        run: ./gradlew assembleDebug
+
+      # For a signed RELEASE apk instead, replace the step above with:
+      #   run: ./gradlew assembleRelease
+      # and add your keystore via secrets.
+
+      - name: Stamp a version tag
+        id: ver
+        run: echo "tag=build-$(date +%Y%m%d-%H%M%S)" >> "$GITHUB_OUTPUT"
+
+      - name: Publish APK as a GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.ver.outputs.tag }}
+          name: "APK ${{ steps.ver.outputs.tag }}"
+          files: android/app/build/outputs/apk/debug/app-debug.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Optional: also upload as a plain artifact (7-day retention)
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
