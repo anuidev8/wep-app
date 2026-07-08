@@ -36,7 +36,7 @@
     "@capawesome-team/capacitor-file-opener": "^8.0.0",
     "@capgo/capacitor-media-session": "^8.0.12",
     "@capgo/capacitor-social-login": "^8.2.17",
-    "@capgo/native-audio": "^8.2.11",
+    "@capgo/native-audio": "8.2.11",
     "@elevenlabs/elevenlabs-js": "^2.35.0",
     "@google/genai": "^1.30.0",
     "@revenuecat/purchases-capacitor": "^12.0.5",
