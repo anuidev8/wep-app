@@ -1,0 +1,48 @@
+Area,#,Title,Description,Type
+Home – Header,1,Home header alignment,"The home header is slightly too low. The user icon and ""The School of Breath"" title should be repositioned so the header feels correctly aligned at the top of the screen.",UI
+Home – Header,2,Day streak not working,"The ""Day Streak"" display on home does not work correctly. Implement or fix the logic so the streak value is accurate, persists, and updates when the user completes eligible sessions.",Bug / Feature
+Onboarding,3,Onboarding persists after completion,"Onboarding should disappear once the user has completed it and must not show again. Persist completion state (e.g. in DB or local storage) and skip/redirect away from onboarding for returning users.",Feature
+About us,4,About us should open in-app screen,"""About us"" currently opens an external link. It should redirect to a dedicated in-app screen instead of leaving the app to an external URL.",Feature
+Courses,5,Remove debug ""loaded X courses"" text,"Remove the debug element that says ""Debug: Loaded X courses from API"" (e.g. ""Loaded 11 courses from API"") from the Courses screen. This is development-only UI and must not appear in production.",Bug
+Courses,6,Premium lock on courses – no navigation,"When the user is not premium, show a lock state on course items. Do not allow navigation into the course (e.g. no opening detail or play). Only the unlock action should be available.",Feature
+Courses,7,Unlock icon on play button for non-premium,"For non-premium users, show a lock/unlock icon on the same place as the play button (on course cards/icons). Tapping it should trigger the unlock flow, not start playback.",UI / Feature
+Courses,8,Courses detail back button,"Fix or ensure the back button on the course detail screen works correctly and returns the user to the previous screen (e.g. Courses list).",UI
+Courses,9,Unlock redirects to subscription,"When the user taps ""Unlock"" (or the lock icon) on a locked course item, redirect to the subscription/paywall screen instead of allowing access.",Feature
+Breathing exercise,10,Diaphragmatic breathing – controls too high,"In diaphragmatic breathing, the pause button and volume icon are positioned too high. Move them down so they align better with the rest of the exercise UI.",UI
+Breathing exercise,11,"""Video not supported"" during load","The video cue shows a ""video not supported"" (or similar) error while the video screen is still loading. Fix so either a loading state is shown or the message appears only when the video truly fails.",Bug
+Breathing exercise,12,Volume and pause position in all exercises,"Bring the volume and pause controls down in every breathing exercise so they are consistent and not too high on the screen.",UI
+Breathing exercise,13,No download certificate in final flow,"In the final step of the breathing exercise flow, the option to download the certificate is missing or not working. Add or fix the download certificate feature in the app.",Feature
+Breathing exercise,14,Disable scroll and fit to screen,"Disable scroll on breathing exercise screens and ensure all elements fit within the visible screen height for a proper mobile experience (no overflow scroll).",UX
+Guided meditation,15,Back button size and position,"Make the back button on the guided meditation screen larger and centered (or centered vertically in the header area) for better visibility and tap target.",UI
+Guided meditation,16,Unlock redirects to subscription,"When the user taps unlock on a locked guided meditation item, redirect to the subscription screen instead of allowing access.",Feature
+Guided meditation,17,Like button stored in DB,"The like button currently stores likes locally. Change so likes are stored in the backend/database and sync across devices and sessions.",Feature
+General,18,Unwanted zoom on screens,"Sometimes the screen layout zooms in (like on a website), e.g. when focusing an input on guided meditation. Prevent this zoom behavior across the app so the layout stays fixed.",Bug
+General,19,Screen elements fit device height,"Ensure on all screens that content and controls fit within the device screen height so nothing is cut off and the experience is consistent across devices.",UX
+Notifications,20,Enable notification not working,"The ""Enable notification"" (or similar) action is not working. Fix the flow so the user can successfully enable notifications.",Bug
+Notifications,21,Implement notifications on Android/iOS,"Implement push notifications for Android and iOS (permissions, FCM/APNs, and in-app handling) so users receive notifications.",Feature
+Notifications,22,Notification preferences in DB,"Store notification settings (on/off, types) in the database so they persist and sync across devices.",Feature
+Mantras,23,Back button alignment,"The back button on Mantra screens is too high (top-aligned). Align it to be more centered or consistent with other screens.",UI
+Mantras,24,"""Mantra Explorer"" header fixed on scroll","When scrolling the Mantra list, the header title ""Mantra Explorer"" is fixed. It should be dynamic (e.g. scroll with content or collapse) so it matches the intended design.",UI
+Mantras,25,Like button stored in DB,"Store mantra likes in the database, not locally, so they persist and sync across devices.",Feature
+Mantras,26,Keep player awake,"Add a ""keep awake"" (or similar) feature for the mantra player so the screen does not turn off during playback.",Feature
+Sleep music,27,Disable scroll when modal open,"When any modal is open on the Sleep music screen, disable background scroll so only the modal content scrolls (if needed). Do not allow scrolling the page behind the modal.",UX
+Sleep music,28,Unlock redirects to subscription,"When the user taps unlock on a locked sleep music item, redirect to the subscription screen.",Feature
+Breathing training,29,Pattern icon colors in ""How do you want to feel""."Fix the icon colors for each pattern in the ""How do you want to feel"" (or similar) section so they match the design and are consistent.",UI
+Breathing training,30,Disable scroll when modal open,"On all breathing training screens, when a modal is shown, disable scroll on the underlying screen.",UX
+Breathing training,31,Keep player awake,"Add keep-awake for the breathing training player so the device does not sleep during the session.",Feature
+Breathing training,32,"""How do you feel"" full-screen","The ""How do you feel"" modal should appear as a separate full-screen screen, not as an overlay on the home screen. Implement as a dedicated route/screen.",Feature
+Breathing training,33,Progress stored in DB,"Store breathing training progress (e.g. completed patterns, levels) in the database so it persists and syncs.",Feature
+Breathing training,34,Pattern info alert overlapping,"When the user taps a pattern manually, the info alert overlaps the item and blocks interaction. Fix layout so the alert does not overlap the tappable item and the modal for this functionality displays correctly.",Bug
+Chakras,35,Chakras list lock/unlock icons,"The chakras list does not show lock/unlock icons. Add and wire lock/unlock icons so premium vs non-premium state is clear for each chakra item.",Feature
+Chakras,36,Chakras title too high,"The chakras screen title is positioned too high. Move it toward the middle (or align with design) for better balance.",UI
+Chakras,37,Lock in Chakras home category,"On home, the Chakras category should show a lock for non-premium users. Validate premium status and show lock icon/state so only premium users can access.",Feature
+Chakras,38,Chakras entry scroll position,"When navigating to Chakras from home, the scroll position should start at the top (scroll to zero). Do not preserve a previous scroll position that leaves content above the fold.",UX
+Chakras,39,Chakras use real API data,"Ensure the Chakras feature uses real API URLs/data (not mocks or hardcoded data) for content and media.",Feature
+Chatbot,40,Chat responses not working,"The chatbot is not returning or displaying responses correctly. Fix the integration (API, state, or UI) so user messages get proper replies.",Bug
+Chatbot,41,Zoom on chat input focus,"When the user taps the chat input, the screen zooms in (web-like behavior). Prevent zoom so the layout stays fixed and the keyboard does not cause unwanted zoom.",Bug
+Menu,42,iOS sidebar scroll/overlap,"On iOS, the side menu/sidebar has overlapping and scroll issues. Disable scroll where appropriate and fix overlap so the menu displays correctly.",Bug
+Menu,43,Remove Manage membership,"Remove the Manage membership item from the menu.",Feature
+Menu,44,Add Privacy policy,"Add a ""Privacy policy"" item to the menu that opens the privacy policy (in-app screen or URL).",Feature
+Menu,45,Add Help & support,"Add a ""Help & support"" item to the menu that opens help/support (in-app or link).",Feature
+Menu,46,Add Change password for email users,"Add ""Change password"" in the menu, visible only for users who signed in with email (not social login). Link to the existing change password flow.",Feature
+Gratitude journal,47,Data stored in DB via API,"Ensure gratitude journal entries are stored using the correct API and persisted in the database, not only locally.",Feature

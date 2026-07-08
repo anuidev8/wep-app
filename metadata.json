@@ -1,0 +1,7 @@
+{
+  "name": "The School of Breath Test Jan 15",
+  "description": "An engaging, habit-forming breathwork application featuring gamified streaks, calm scores, and an AI breathing coach with generative video and image capabilities.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">School Of Breath</string>
+    <string name="title_activity_main">School Of Breath</string>
+    <string name="package_name">com.meditatewithabhi.theschoolofbreath</string>
+    <string name="custom_url_scheme">com.meditatewithabhi.theschoolofbreath</string>
+</resources>

@@ -1,0 +1,1763 @@
+diff --git a/node_modules/@capgo/native-audio/.swiftpm/xcode/xcuserdata/usuario.xcuserdatad/xcschemes/xcschememanagement.plist b/node_modules/@capgo/native-audio/.swiftpm/xcode/xcuserdata/usuario.xcuserdatad/xcschemes/xcschememanagement.plist
+new file mode 100644
+index 0000000..a31fe64
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/.swiftpm/xcode/xcuserdata/usuario.xcuserdatad/xcschemes/xcschememanagement.plist
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
++<plist version="1.0">
++<dict>
++	<key>SchemeUserState</key>
++	<dict>
++		<key>CapgoNativeAudio.xcscheme_^#shared#^_</key>
++		<dict>
++			<key>orderHint</key>
++			<integer>15</integer>
++		</dict>
++	</dict>
++</dict>
++</plist>
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/results.bin b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/results.bin
+new file mode 100644
+index 0000000..7ed749e
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/results.bin
+@@ -0,0 +1 @@
++o/bundleLibRuntimeToDirDebug
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$1.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$1.dex
+new file mode 100644
+index 0000000..606a386
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$1.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$2.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$2.dex
+new file mode 100644
+index 0000000..52cd9b1
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$2.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$3.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$3.dex
+new file mode 100644
+index 0000000..febf79c
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$3.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$4.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$4.dex
+new file mode 100644
+index 0000000..a69e762
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$4.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$5.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$5.dex
+new file mode 100644
+index 0000000..30e8c2d
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset$5.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset.dex
+new file mode 100644
+index 0000000..a91bcbb
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioAsset.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioCompletionListener.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioCompletionListener.dex
+new file mode 100644
+index 0000000..40b563a
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioCompletionListener.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioDispatcher.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioDispatcher.dex
+new file mode 100644
+index 0000000..2a6b49f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/AudioDispatcher.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/Constant.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/Constant.dex
+new file mode 100644
+index 0000000..3e52604
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/Constant.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/HlsAvailabilityChecker.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/HlsAvailabilityChecker.dex
+new file mode 100644
+index 0000000..ecbcede
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/HlsAvailabilityChecker.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$1.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$1.dex
+new file mode 100644
+index 0000000..7070a24
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$1.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$2.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$2.dex
+new file mode 100644
+index 0000000..0f15351
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$2.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$3$1.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$3$1.dex
+new file mode 100644
+index 0000000..4bd6bfd
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$3$1.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$3.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$3.dex
+new file mode 100644
+index 0000000..cd87711
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$3.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$4.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$4.dex
+new file mode 100644
+index 0000000..54e1e2c
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$4.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$5.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$5.dex
+new file mode 100644
+index 0000000..46ec1ee
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$5.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$6.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$6.dex
+new file mode 100644
+index 0000000..d2026b7
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$6.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$7.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$7.dex
+new file mode 100644
+index 0000000..420f086
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$7.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$8.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$8.dex
+new file mode 100644
+index 0000000..a0b3816
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$8.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$ArtworkCallback.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$ArtworkCallback.dex
+new file mode 100644
+index 0000000..3e2a075
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio$ArtworkCallback.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio.dex
+new file mode 100644
+index 0000000..e1ca346
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/NativeAudio.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$1.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$1.dex
+new file mode 100644
+index 0000000..b9894b2
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$1.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$10.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$10.dex
+new file mode 100644
+index 0000000..a744540
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$10.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$11.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$11.dex
+new file mode 100644
+index 0000000..ed44ef1
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$11.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$12$1.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$12$1.dex
+new file mode 100644
+index 0000000..de704bb
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$12$1.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$12.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$12.dex
+new file mode 100644
+index 0000000..00dc1a5
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$12.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$13.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$13.dex
+new file mode 100644
+index 0000000..394d123
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$13.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$14.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$14.dex
+new file mode 100644
+index 0000000..821ba41
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$14.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$15.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$15.dex
+new file mode 100644
+index 0000000..d1be52f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$15.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$16.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$16.dex
+new file mode 100644
+index 0000000..f39e609
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$16.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$17.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$17.dex
+new file mode 100644
+index 0000000..91a7ad9
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$17.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$18.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$18.dex
+new file mode 100644
+index 0000000..f00b1b5
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$18.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$2.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$2.dex
+new file mode 100644
+index 0000000..063a097
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$2.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$3$1.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$3$1.dex
+new file mode 100644
+index 0000000..775f962
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$3$1.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$3.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$3.dex
+new file mode 100644
+index 0000000..aff36d6
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$3.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$4.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$4.dex
+new file mode 100644
+index 0000000..a17a4cf
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$4.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$5.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$5.dex
+new file mode 100644
+index 0000000..0a24d73
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$5.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$6.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$6.dex
+new file mode 100644
+index 0000000..28b5b4b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$6.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$7.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$7.dex
+new file mode 100644
+index 0000000..7ed6b2f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$7.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$8.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$8.dex
+new file mode 100644
+index 0000000..0aa66d7
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$8.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$9.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$9.dex
+new file mode 100644
+index 0000000..3baedd3
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset$9.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset.dex
+new file mode 100644
+index 0000000..b9ed291
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/RemoteAudioAsset.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$1.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$1.dex
+new file mode 100644
+index 0000000..2977b51
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$1.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$2.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$2.dex
+new file mode 100644
+index 0000000..14091b7
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$2.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$3.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$3.dex
+new file mode 100644
+index 0000000..3fd3d5d
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$3.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$4.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$4.dex
+new file mode 100644
+index 0000000..3a68680
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$4.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$5.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$5.dex
+new file mode 100644
+index 0000000..10d8f51
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$5.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$6.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$6.dex
+new file mode 100644
+index 0000000..fc86744
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$6.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$7.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$7.dex
+new file mode 100644
+index 0000000..a19aed1
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$7.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$8$1.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$8$1.dex
+new file mode 100644
+index 0000000..83b6638
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$8$1.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$8.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$8.dex
+new file mode 100644
+index 0000000..02b2c4f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset$8.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset.dex b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset.dex
+new file mode 100644
+index 0000000..3794125
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/bundleLibRuntimeToDirDebug_dex/ee/forgr/audio/StreamAudioAsset.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin
+new file mode 100644
+index 0000000..d994b5d
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/10a3b06210b1de55c94c097d2f6a93ac/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin differ
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/f0124008ff715901b40bffab49590af1/results.bin b/node_modules/@capgo/native-audio/android/build/.transforms/f0124008ff715901b40bffab49590af1/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/.transforms/f0124008ff715901b40bffab49590af1/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/@capgo/native-audio/android/build/.transforms/f0124008ff715901b40bffab49590af1/transformed/classes/classes_dex/classes.dex b/node_modules/@capgo/native-audio/android/build/.transforms/f0124008ff715901b40bffab49590af1/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..b9ce194
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/.transforms/f0124008ff715901b40bffab49590af1/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml b/node_modules/@capgo/native-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..a5f3800
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="ee.forgr.audio.nativeaudio" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json b/node_modules/@capgo/native-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+new file mode 100644
+index 0000000..106ef3a
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "ee.forgr.audio.nativeaudio",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/aar_main_jar/debug/syncDebugLibJars/classes.jar b/node_modules/@capgo/native-audio/android/build/intermediates/aar_main_jar/debug/syncDebugLibJars/classes.jar
+new file mode 100644
+index 0000000..f69cac9
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/aar_main_jar/debug/syncDebugLibJars/classes.jar differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties b/node_modules/@capgo/native-audio/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+new file mode 100644
+index 0000000..1211b1e
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties
+@@ -0,0 +1,6 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
++coreLibraryDesugaringEnabled=false
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json b/node_modules/@capgo/native-audio/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt b/node_modules/@capgo/native-audio/android/build/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar b/node_modules/@capgo/native-audio/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar
+new file mode 100644
+index 0000000..fc392e4
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar b/node_modules/@capgo/native-audio/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar
+new file mode 100644
+index 0000000..6ae6280
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt b/node_modules/@capgo/native-audio/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt
+new file mode 100644
+index 0000000..86d5c2a
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt
+@@ -0,0 +1 @@
++int string my_string 0x0
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state
+new file mode 100644
+index 0000000..1c983fc
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..c28e96f
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Fri Feb 20 11:37:08 COT 2026
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml
+new file mode 100644
+index 0000000..e95bf66
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <string name="my_string">Just a simple string</string>
++</resources>
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..b1560c7
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/res"><file path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/res/values/colors.xml" qualifiers=""/><file path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/res/values/styles.xml" qualifiers=""/><file path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/res/values/strings.xml" qualifiers=""><string name="my_string">Just a simple string</string></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/incremental/mergeDebugAssets/merger.xml b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/mergeDebugAssets/merger.xml
+new file mode 100644
+index 0000000..f9ba7ca
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/mergeDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/debug/assets"/></dataSet><dataSet config="generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/build/intermediates/shader_assets/debug/compileDebugShaders/out"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+new file mode 100644
+index 0000000..e709412
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/debug/jniLibs"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/incremental/mergeDebugShaders/merger.xml b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+new file mode 100644
+index 0000000..6e5a4c1
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/debug/shaders"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$1.class
+new file mode 100644
+index 0000000..489739f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$2.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$2.class
+new file mode 100644
+index 0000000..771ca7a
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$2.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$3.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$3.class
+new file mode 100644
+index 0000000..9be9b8d
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$3.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$4.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$4.class
+new file mode 100644
+index 0000000..aa13ffe
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$4.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$5.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$5.class
+new file mode 100644
+index 0000000..9e3d034
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset$5.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset.class
+new file mode 100644
+index 0000000..ea6f90b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioAsset.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioCompletionListener.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioCompletionListener.class
+new file mode 100644
+index 0000000..1fbf4db
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioCompletionListener.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioDispatcher.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioDispatcher.class
+new file mode 100644
+index 0000000..4c10d58
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/AudioDispatcher.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/Constant.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/Constant.class
+new file mode 100644
+index 0000000..c09d807
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/Constant.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/HlsAvailabilityChecker.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/HlsAvailabilityChecker.class
+new file mode 100644
+index 0000000..393f8db
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/HlsAvailabilityChecker.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$1.class
+new file mode 100644
+index 0000000..fb4f3d9
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$2.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$2.class
+new file mode 100644
+index 0000000..dd70c01
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$2.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$3$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$3$1.class
+new file mode 100644
+index 0000000..311a0b8
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$3$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$3.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$3.class
+new file mode 100644
+index 0000000..6184617
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$3.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$4.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$4.class
+new file mode 100644
+index 0000000..ed73573
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$4.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$5.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$5.class
+new file mode 100644
+index 0000000..58f377b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$5.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$6.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$6.class
+new file mode 100644
+index 0000000..bd6791f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$6.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$7.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$7.class
+new file mode 100644
+index 0000000..ffaa79f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$7.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$8.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$8.class
+new file mode 100644
+index 0000000..af1c25b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$8.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$ArtworkCallback.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$ArtworkCallback.class
+new file mode 100644
+index 0000000..0365233
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio$ArtworkCallback.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio.class
+new file mode 100644
+index 0000000..7c2342b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/NativeAudio.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$1.class
+new file mode 100644
+index 0000000..aa0fd2c
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$10.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$10.class
+new file mode 100644
+index 0000000..9b57d5d
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$10.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$11.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$11.class
+new file mode 100644
+index 0000000..81bd83c
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$11.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$12$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$12$1.class
+new file mode 100644
+index 0000000..2b30026
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$12$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$12.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$12.class
+new file mode 100644
+index 0000000..55f1beb
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$12.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$13.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$13.class
+new file mode 100644
+index 0000000..427f6f2
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$13.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$14.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$14.class
+new file mode 100644
+index 0000000..e6fc8c9
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$14.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$15.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$15.class
+new file mode 100644
+index 0000000..6a89e7f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$15.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$16.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$16.class
+new file mode 100644
+index 0000000..6bc9517
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$16.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$17.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$17.class
+new file mode 100644
+index 0000000..28dce4e
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$17.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$18.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$18.class
+new file mode 100644
+index 0000000..3858700
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$18.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$2.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$2.class
+new file mode 100644
+index 0000000..2557df5
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$2.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$3$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$3$1.class
+new file mode 100644
+index 0000000..4d6050f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$3$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$3.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$3.class
+new file mode 100644
+index 0000000..1c5dc8e
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$3.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$4.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$4.class
+new file mode 100644
+index 0000000..fc496ff
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$4.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$5.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$5.class
+new file mode 100644
+index 0000000..1eaa75e
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$5.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$6.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$6.class
+new file mode 100644
+index 0000000..ee13918
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$6.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$7.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$7.class
+new file mode 100644
+index 0000000..069ec68
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$7.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$8.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$8.class
+new file mode 100644
+index 0000000..ade863d
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$8.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$9.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$9.class
+new file mode 100644
+index 0000000..4f27d79
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset$9.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset.class
+new file mode 100644
+index 0000000..9409bfe
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/RemoteAudioAsset.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$1.class
+new file mode 100644
+index 0000000..eb6a416
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$2.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$2.class
+new file mode 100644
+index 0000000..8fbd62b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$2.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$3.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$3.class
+new file mode 100644
+index 0000000..b6aeac6
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$3.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$4.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$4.class
+new file mode 100644
+index 0000000..d29ff26
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$4.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$5.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$5.class
+new file mode 100644
+index 0000000..71439b9
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$5.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$6.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$6.class
+new file mode 100644
+index 0000000..a1435c0
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$6.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$7.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$7.class
+new file mode 100644
+index 0000000..76c5901
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$7.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$8$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$8$1.class
+new file mode 100644
+index 0000000..30aad8a
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$8$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$8.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$8.class
+new file mode 100644
+index 0000000..39162a0
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset$8.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset.class b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset.class
+new file mode 100644
+index 0000000..0d24450
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/ee/forgr/audio/StreamAudioAsset.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt b/node_modules/@capgo/native-audio/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+new file mode 100644
+index 0000000..3fe56ae
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt
+@@ -0,0 +1,3 @@
++R_DEF: Internal format may change without notice
++local
++string my_string
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt b/node_modules/@capgo/native-audio/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..07644cd
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,7 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="ee.forgr.audio.nativeaudio" >
++4
++5    <uses-sdk android:minSdkVersion="24" />
++6
++7</manifest>
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/merged_java_res/debug/mergeDebugJavaResource/feature-capgo-native-audio.jar b/node_modules/@capgo/native-audio/android/build/intermediates/merged_java_res/debug/mergeDebugJavaResource/feature-capgo-native-audio.jar
+new file mode 100644
+index 0000000..15cb0ec
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/merged_java_res/debug/mergeDebugJavaResource/feature-capgo-native-audio.jar differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml b/node_modules/@capgo/native-audio/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+new file mode 100644
+index 0000000..a5f3800
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="ee.forgr.audio.nativeaudio" >
++
++    <uses-sdk android:minSdkVersion="24" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json b/node_modules/@capgo/native-audio/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt b/node_modules/@capgo/native-audio/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+new file mode 100644
+index 0000000..08f4ebe
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt
+@@ -0,0 +1 @@
++0 Warning/Error
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/packaged_res/debug/packageDebugResources/values/values.xml b/node_modules/@capgo/native-audio/android/build/intermediates/packaged_res/debug/packageDebugResources/values/values.xml
+new file mode 100644
+index 0000000..e95bf66
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/packaged_res/debug/packageDebugResources/values/values.xml
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <string name="my_string">Just a simple string</string>
++</resources>
+\ No newline at end of file
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$1.class
+new file mode 100644
+index 0000000..489739f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$2.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$2.class
+new file mode 100644
+index 0000000..771ca7a
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$2.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$3.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$3.class
+new file mode 100644
+index 0000000..9be9b8d
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$3.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$4.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$4.class
+new file mode 100644
+index 0000000..aa13ffe
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$4.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$5.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$5.class
+new file mode 100644
+index 0000000..9e3d034
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset$5.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset.class
+new file mode 100644
+index 0000000..ea6f90b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioAsset.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioCompletionListener.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioCompletionListener.class
+new file mode 100644
+index 0000000..1fbf4db
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioCompletionListener.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioDispatcher.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioDispatcher.class
+new file mode 100644
+index 0000000..4c10d58
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/AudioDispatcher.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/Constant.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/Constant.class
+new file mode 100644
+index 0000000..c09d807
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/Constant.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/HlsAvailabilityChecker.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/HlsAvailabilityChecker.class
+new file mode 100644
+index 0000000..393f8db
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/HlsAvailabilityChecker.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$1.class
+new file mode 100644
+index 0000000..fb4f3d9
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$2.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$2.class
+new file mode 100644
+index 0000000..dd70c01
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$2.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$3$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$3$1.class
+new file mode 100644
+index 0000000..311a0b8
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$3$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$3.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$3.class
+new file mode 100644
+index 0000000..6184617
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$3.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$4.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$4.class
+new file mode 100644
+index 0000000..ed73573
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$4.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$5.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$5.class
+new file mode 100644
+index 0000000..58f377b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$5.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$6.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$6.class
+new file mode 100644
+index 0000000..bd6791f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$6.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$7.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$7.class
+new file mode 100644
+index 0000000..ffaa79f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$7.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$8.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$8.class
+new file mode 100644
+index 0000000..af1c25b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$8.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$ArtworkCallback.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$ArtworkCallback.class
+new file mode 100644
+index 0000000..0365233
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio$ArtworkCallback.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio.class
+new file mode 100644
+index 0000000..7c2342b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/NativeAudio.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$1.class
+new file mode 100644
+index 0000000..aa0fd2c
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$10.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$10.class
+new file mode 100644
+index 0000000..9b57d5d
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$10.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$11.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$11.class
+new file mode 100644
+index 0000000..81bd83c
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$11.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$12$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$12$1.class
+new file mode 100644
+index 0000000..2b30026
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$12$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$12.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$12.class
+new file mode 100644
+index 0000000..55f1beb
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$12.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$13.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$13.class
+new file mode 100644
+index 0000000..427f6f2
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$13.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$14.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$14.class
+new file mode 100644
+index 0000000..e6fc8c9
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$14.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$15.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$15.class
+new file mode 100644
+index 0000000..6a89e7f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$15.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$16.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$16.class
+new file mode 100644
+index 0000000..6bc9517
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$16.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$17.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$17.class
+new file mode 100644
+index 0000000..28dce4e
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$17.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$18.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$18.class
+new file mode 100644
+index 0000000..3858700
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$18.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$2.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$2.class
+new file mode 100644
+index 0000000..2557df5
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$2.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$3$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$3$1.class
+new file mode 100644
+index 0000000..4d6050f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$3$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$3.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$3.class
+new file mode 100644
+index 0000000..1c5dc8e
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$3.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$4.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$4.class
+new file mode 100644
+index 0000000..fc496ff
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$4.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$5.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$5.class
+new file mode 100644
+index 0000000..1eaa75e
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$5.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$6.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$6.class
+new file mode 100644
+index 0000000..ee13918
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$6.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$7.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$7.class
+new file mode 100644
+index 0000000..069ec68
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$7.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$8.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$8.class
+new file mode 100644
+index 0000000..ade863d
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$8.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$9.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$9.class
+new file mode 100644
+index 0000000..4f27d79
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset$9.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset.class
+new file mode 100644
+index 0000000..9409bfe
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/RemoteAudioAsset.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$1.class
+new file mode 100644
+index 0000000..eb6a416
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$2.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$2.class
+new file mode 100644
+index 0000000..8fbd62b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$2.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$3.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$3.class
+new file mode 100644
+index 0000000..b6aeac6
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$3.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$4.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$4.class
+new file mode 100644
+index 0000000..d29ff26
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$4.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$5.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$5.class
+new file mode 100644
+index 0000000..71439b9
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$5.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$6.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$6.class
+new file mode 100644
+index 0000000..a1435c0
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$6.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$7.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$7.class
+new file mode 100644
+index 0000000..76c5901
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$7.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$8$1.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$8$1.class
+new file mode 100644
+index 0000000..30aad8a
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$8$1.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$8.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$8.class
+new file mode 100644
+index 0000000..39162a0
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset$8.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset.class b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset.class
+new file mode 100644
+index 0000000..0d24450
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug/ee/forgr/audio/StreamAudioAsset.class differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar
+new file mode 100644
+index 0000000..1a1dc4e
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar differ
+diff --git a/node_modules/@capgo/native-audio/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt b/node_modules/@capgo/native-audio/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+new file mode 100644
+index 0000000..abfe51b
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt
+@@ -0,0 +1,2 @@
++ee.forgr.audio.nativeaudio
++string my_string
+diff --git a/node_modules/@capgo/native-audio/android/build/outputs/aar/capgo-native-audio-debug.aar b/node_modules/@capgo/native-audio/android/build/outputs/aar/capgo-native-audio-debug.aar
+new file mode 100644
+index 0000000..f9bffa6
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/outputs/aar/capgo-native-audio-debug.aar differ
+diff --git a/node_modules/@capgo/native-audio/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/@capgo/native-audio/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..e74a860
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,16 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/AndroidManifest.xml:2:3-4:14
++INJECTED from /Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/AndroidManifest.xml:2:3-4:14
++	package
++		INJECTED from /Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/AndroidManifest.xml:2:13-71
++uses-sdk
++INJECTED from /Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/AndroidManifest.xml
++INJECTED from /Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/usuario/Documents/abhi/v2/apps/webapp/schoolofbreathV3/node_modules/@capgo/native-audio/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$1.class.uniqueId14 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$1.class.uniqueId14
+new file mode 100644
+index 0000000..fb4f3d9
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$1.class.uniqueId14 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$2.class.uniqueId0 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$2.class.uniqueId0
+new file mode 100644
+index 0000000..dd70c01
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$2.class.uniqueId0 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$3$1.class.uniqueId26 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$3$1.class.uniqueId26
+new file mode 100644
+index 0000000..311a0b8
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$3$1.class.uniqueId26 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$3.class.uniqueId22 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$3.class.uniqueId22
+new file mode 100644
+index 0000000..6184617
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$3.class.uniqueId22 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$4.class.uniqueId10 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$4.class.uniqueId10
+new file mode 100644
+index 0000000..ed73573
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$4.class.uniqueId10 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$5.class.uniqueId27 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$5.class.uniqueId27
+new file mode 100644
+index 0000000..58f377b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$5.class.uniqueId27 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$6.class.uniqueId9 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$6.class.uniqueId9
+new file mode 100644
+index 0000000..bd6791f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$6.class.uniqueId9 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$7.class.uniqueId7 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$7.class.uniqueId7
+new file mode 100644
+index 0000000..ffaa79f
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$7.class.uniqueId7 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$8.class.uniqueId17 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$8.class.uniqueId17
+new file mode 100644
+index 0000000..af1c25b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$8.class.uniqueId17 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$ArtworkCallback.class.uniqueId11 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$ArtworkCallback.class.uniqueId11
+new file mode 100644
+index 0000000..0365233
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio$ArtworkCallback.class.uniqueId11 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio.class.uniqueId31 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio.class.uniqueId31
+new file mode 100644
+index 0000000..7c2342b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/NativeAudio.class.uniqueId31 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$1.class.uniqueId6 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$1.class.uniqueId6
+new file mode 100644
+index 0000000..d602470
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$1.class.uniqueId6 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$10.class.uniqueId15 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$10.class.uniqueId15
+new file mode 100644
+index 0000000..241d84a
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$10.class.uniqueId15 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$11.class.uniqueId2 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$11.class.uniqueId2
+new file mode 100644
+index 0000000..74774bc
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$11.class.uniqueId2 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$12$1.class.uniqueId20 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$12$1.class.uniqueId20
+new file mode 100644
+index 0000000..35f9c23
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$12$1.class.uniqueId20 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$12.class.uniqueId12 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$12.class.uniqueId12
+new file mode 100644
+index 0000000..14cb3e9
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$12.class.uniqueId12 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$13.class.uniqueId25 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$13.class.uniqueId25
+new file mode 100644
+index 0000000..d8732b9
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$13.class.uniqueId25 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$14.class.uniqueId5 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$14.class.uniqueId5
+new file mode 100644
+index 0000000..4b2306c
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$14.class.uniqueId5 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$15.class.uniqueId16 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$15.class.uniqueId16
+new file mode 100644
+index 0000000..d1f7b42
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$15.class.uniqueId16 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$16.class.uniqueId28 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$16.class.uniqueId28
+new file mode 100644
+index 0000000..9be7be1
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$16.class.uniqueId28 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$17.class.uniqueId18 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$17.class.uniqueId18
+new file mode 100644
+index 0000000..964cab1
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$17.class.uniqueId18 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$18.class.uniqueId4 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$18.class.uniqueId4
+new file mode 100644
+index 0000000..b30002b
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$18.class.uniqueId4 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$2.class.uniqueId19 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$2.class.uniqueId19
+new file mode 100644
+index 0000000..6c7499c
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$2.class.uniqueId19 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$3$1.class.uniqueId8 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$3$1.class.uniqueId8
+new file mode 100644
+index 0000000..a999c69
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$3$1.class.uniqueId8 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$3.class.uniqueId13 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$3.class.uniqueId13
+new file mode 100644
+index 0000000..04451c7
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$3.class.uniqueId13 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$4.class.uniqueId24 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$4.class.uniqueId24
+new file mode 100644
+index 0000000..062ec78
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$4.class.uniqueId24 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$5.class.uniqueId23 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$5.class.uniqueId23
+new file mode 100644
+index 0000000..5969f67
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$5.class.uniqueId23 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$6.class.uniqueId3 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$6.class.uniqueId3
+new file mode 100644
+index 0000000..b62cc13
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$6.class.uniqueId3 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$7.class.uniqueId30 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$7.class.uniqueId30
+new file mode 100644
+index 0000000..cd923f5
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$7.class.uniqueId30 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$8.class.uniqueId1 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$8.class.uniqueId1
+new file mode 100644
+index 0000000..f85e7e7
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$8.class.uniqueId1 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$9.class.uniqueId21 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$9.class.uniqueId21
+new file mode 100644
+index 0000000..f91488e
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset$9.class.uniqueId21 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset.class.uniqueId29 b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset.class.uniqueId29
+new file mode 100644
+index 0000000..571a861
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/RemoteAudioAsset.class.uniqueId29 differ
+diff --git a/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..6fa2ee0
+Binary files /dev/null and b/node_modules/@capgo/native-audio/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
+diff --git a/node_modules/@capgo/native-audio/android/gradle.properties b/node_modules/@capgo/native-audio/android/gradle.properties
+new file mode 100644
+index 0000000..489bf36
+--- /dev/null
++++ b/node_modules/@capgo/native-audio/android/gradle.properties
+@@ -0,0 +1,5 @@
++
++
++# NativeAudio Optional Dependencies (auto-generated)
++# Generated by NativeAudio hook script
++nativeAudio.hls.include=true
+diff --git a/node_modules/@capgo/native-audio/android/src/main/java/ee/forgr/audio/RemoteAudioAsset.java b/node_modules/@capgo/native-audio/android/src/main/java/ee/forgr/audio/RemoteAudioAsset.java
+index adc1951..742fac2 100644
+--- a/node_modules/@capgo/native-audio/android/src/main/java/ee/forgr/audio/RemoteAudioAsset.java
++++ b/node_modules/@capgo/native-audio/android/src/main/java/ee/forgr/audio/RemoteAudioAsset.java
+@@ -5,6 +5,8 @@ import android.net.Uri;
+ import android.os.Handler;
+ import android.os.Looper;
+ import android.util.Log;
++import androidx.media3.common.AudioAttributes;
++import androidx.media3.common.C;
+ import androidx.media3.common.MediaItem;
+ import androidx.media3.common.Player;
+ import androidx.media3.common.util.UnstableApi;
+@@ -110,6 +112,24 @@ public class RemoteAudioAsset extends AudioAsset {
+         // Create media source
+         MediaSource mediaSource = new ProgressiveMediaSource.Factory(cacheDataSourceFactory).createMediaSource(MediaItem.fromUri(uri));
+ 
++        // Keep CPU + WiFi awake so audio continues when the screen turns off.
++        // WAKE_MODE_NETWORK = PARTIAL_WAKE_LOCK + WifiLock (needed for streaming).
++        // Requires android.permission.WAKE_LOCK in AndroidManifest.xml.
++        player.setWakeMode(C.WAKE_MODE_NETWORK);
++
++        // Set audio attributes for proper stream routing (MUSIC category).
++        // handleAudioFocus=false because the NativeAudio plugin already requests focus
++        // centrally in configure(). If each ExoPlayer instance managed focus itself,
++        // starting a second asset (e.g. a sound layer) would steal focus from the main
++        // track and pause it.
++        player.setAudioAttributes(
++            new AudioAttributes.Builder()
++                .setUsage(C.USAGE_MEDIA)
++                .setContentType(C.AUDIO_CONTENT_TYPE_MUSIC)
++                .build(),
++            /* handleAudioFocus= */ false
++        );
++
+         player.setMediaSource(mediaSource);
+         player.setVolume(volume);
+         player.prepare();
+diff --git a/node_modules/@capgo/native-audio/ios/Sources/NativeAudioPlugin/RemoteAudioAsset.swift b/node_modules/@capgo/native-audio/ios/Sources/NativeAudioPlugin/RemoteAudioAsset.swift
+index 3a30be3..f051a8f 100644
+--- a/node_modules/@capgo/native-audio/ios/Sources/NativeAudioPlugin/RemoteAudioAsset.swift
++++ b/node_modules/@capgo/native-audio/ios/Sources/NativeAudioPlugin/RemoteAudioAsset.swift
+@@ -1,8 +1,11 @@
+ import AVFoundation
+ 
+ /**
+- * RemoteAudioAsset extends AudioAsset to handle remote (URL-based) audio files
+- * Provides network audio playback using AVPlayer instead of AVAudioPlayer
++ * RemoteAudioAsset extends AudioAsset to handle remote (URL-based) audio files.
++ * Uses AVPlayer / AVPlayerItem instead of AVAudioPlayer so that:
++ *   - HTTP range requests work correctly for large seeks on remote MP3s
++ *   - setCurrentTime() actually moves the playhead (parent class operates on AVAudioPlayer
++ *     `channels`, which is always empty for remote URLs — so the parent's impl is a no-op)
+  */
+ public class RemoteAudioAsset: AudioAsset {
+     var playerItems: [AVPlayerItem] = []
+@@ -12,6 +15,10 @@ public class RemoteAudioAsset: AudioAsset {
+     var duration: TimeInterval = 0
+     var asset: AVURLAsset?
+ 
++    // Time to seek to once the player item becomes .readyToPlay.
++    // Needed because seek() is silently ignored when status == .unknown / .failed.
++    private var pendingSeekTime: TimeInterval?
++
+     init(owner: NativeAudio, withAssetId assetId: String, withPath path: String!, withChannels channels: Int!, withVolume volume: Float!, withFadeDelay delay: Float!, withHeaders headers: [String: String]?) {
+         super.init(owner: owner, withAssetId: assetId, withPath: path, withChannels: channels ?? 1, withVolume: volume ?? 1.0, withFadeDelay: delay ?? 0.0)
+ 
+@@ -19,11 +26,13 @@ public class RemoteAudioAsset: AudioAsset {
+             guard let self = self else { return }
+ 
+             guard let url = URL(string: path ?? "") else {
+-                print("Invalid URL: \(String(describing: path))")
++                print("RemoteAudioAsset: invalid URL: \(String(describing: path))")
+                 return
+             }
+ 
+-            // Build AVURLAsset options with custom headers if provided
++            // AVURLAssetPreferPreciseDurationAndTimingKey is critical — without it,
++            // getDuration() returns kCMTimeIndefinite on MP3 files until nearly fully buffered,
++            // and seeks to arbitrary positions may be silently clamped to the buffered region.
+             var options: [String: Any] = [AVURLAssetPreferPreciseDurationAndTimingKey: true]
+             if let headers = headers, !headers.isEmpty {
+                 options["AVURLAssetHTTPHeaderFieldsKey"] = headers
+@@ -32,195 +41,175 @@ public class RemoteAudioAsset: AudioAsset {
+             let asset = AVURLAsset(url: url, options: options)
+             self.asset = asset
+ 
+-            // Limit channels to a reasonable maximum to prevent resource issues
+             let channelCount = min(max(channels ?? Constant.DefaultChannels, 1), Constant.MaxChannels)
+ 
+             for _ in 0..<channelCount {
+                 let playerItem = AVPlayerItem(asset: asset)
+                 let player = AVPlayer(playerItem: playerItem)
+-                // Apply volume constraints consistent with AudioAsset
+                 player.volume = self.initialVolume
+                 player.rate = 1.0
++
++                // Prevent AVPlayer from pausing automatically at end-of-item.
++                // We handle end-of-playback via the AVPlayerItemDidPlayToEndTime notification.
++                player.actionAtItemEnd = .pause
++
+                 self.playerItems.append(playerItem)
+                 self.players.append(player)
+ 
+-                // Add observer for duration
+-                let durationObserver = playerItem.observe(\.status) { [weak self] item, _ in
+-                    guard let strongSelf = self else { return }
++                // KVO: item status → readyToPlay
++                // When the item becomes ready, apply any pending seek and capture precise duration.
++                let statusObserver = playerItem.observe(\.status) { [weak self, weak playerItem] item, _ in
++                    guard let strongSelf = self, let observedItem = playerItem else { return }
+                     strongSelf.owner?.executeOnAudioQueue {
+                         if item.status == .readyToPlay {
+-                            strongSelf.duration = item.duration.seconds
++                            // Update cached duration
++                            let dur = item.duration
++                            if CMTIME_IS_NUMERIC(dur) && dur.seconds.isFinite && dur.seconds > 0 {
++                                strongSelf.duration = dur.seconds
++                            }
++                            // Flush any seek that arrived before readyToPlay
++                            if let pendingTime = strongSelf.pendingSeekTime,
++                               let player = strongSelf.players.first(where: { $0.currentItem === observedItem }) {
++                                strongSelf.pendingSeekTime = nil
++                                strongSelf.performSeek(player: player, time: pendingTime)
++                            }
+                         }
+                     }
+                 }
+-                self.playerObservers.append(durationObserver)
+-
+-                // Add observer for playback finished
+-                let observer = player.observe(\.timeControlStatus) { [weak self, weak player] observedPlayer, _ in
+-                    guard let strongSelf = self,
+-                          let strongPlayer = player,
+-                          strongPlayer === observedPlayer else { return }
+-
+-                    if strongPlayer.timeControlStatus == .paused &&
+-                        (strongPlayer.currentItem?.currentTime() == strongPlayer.currentItem?.duration ||
+-                            strongPlayer.currentItem?.duration == .zero) {
+-                        strongSelf.playerDidFinishPlaying(player: strongPlayer)
+-                    }
+-                }
+-                self.playerObservers.append(observer)
++                self.playerObservers.append(statusObserver)
+             }
+         }
+     }
+ 
+-    deinit {
+-        // Clean up observers
+-        for observer in playerObservers {
+-            observer.invalidate()
+-        }
+-
+-        for observer in notificationObservers {
+-            NotificationCenter.default.removeObserver(observer)
+-        }
+-
+-        // Clean up players
+-        for player in players {
+-            player.pause()
++    // MARK: – Internal seek helper
++
++    /// Seek using generous tolerances so remote MP3s can fulfill the request via an HTTP range
++    /// request without stalling. Zero-tolerance seeks require the exact frame to be downloaded first,
++    /// which almost always fails mid-stream on GCS remote MP3s.
++    private func performSeek(player: AVPlayer, time: TimeInterval) {
++        let target   = CMTimeMakeWithSeconds(time, preferredTimescale: 600)
++        // 0.5 s tolerance is imperceptible to users and lets AVPlayer fetch an
++        // I-frame boundary rather than an exact sample, making seeks reliable on remote HTTP.
++        let tolerance = CMTimeMakeWithSeconds(0.5, preferredTimescale: 600)
++        player.seek(to: target, toleranceBefore: tolerance, toleranceAfter: tolerance) { finished in
++            if !finished {
++                print("RemoteAudioAsset: seek to \(time)s was interrupted (another seek superseded it)")
++            }
+         }
+-
+-        playerItems = []
+-        players = []
+-        playerObservers = []
+-        notificationObservers = []
+     }
+ 
+-    /// Notifies listeners that this asset finished playing and invokes the optional completion callback if set.
+-    ///
+-    /// Handle a player's end-of-playback by notifying listeners and invoking the optional completion callback.
+-    /// Dispatches the notification on the owner's audio queue and sends a `complete` event containing the assetId.
+-    /// - Parameter player: The `AVPlayer` instance that finished playback.
+-    func playerDidFinishPlaying(player: AVPlayer) {
++    // MARK: – AudioAsset overrides
++
++    override func setCurrentTime(time: TimeInterval) {
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
++            guard !self.players.isEmpty && self.playIndex < self.players.count else {
++                // No player yet — remember for when one is available
++                self.pendingSeekTime = time
++                return
++            }
+ 
+-            self.owner?.notifyListeners("complete", data: [
+-                "assetId": self.assetId
+-            ])
++            let player = self.players[self.playIndex]
+ 
+-            // Invoke completion callback if set
+-            self.onComplete?()
++            guard let item = player.currentItem, item.status == .readyToPlay else {
++                // Not ready — store and apply once status becomes .readyToPlay
++                self.pendingSeekTime = time
++                return
++            }
++
++            self.pendingSeekTime = nil
++            self.performSeek(player: player, time: time)
+         }
+     }
+ 
+     override func play(time: TimeInterval, delay: TimeInterval) {
++        stopCurrentTimeUpdates()
++        stopFadeTimer()
++
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
++            guard !self.players.isEmpty else { return }
+ 
+-            guard !players.isEmpty else { return }
+-
+-            // Reset play index if it's out of bounds
+-            if playIndex >= players.count {
+-                playIndex = 0
++            if self.playIndex >= self.players.count {
++                self.playIndex = 0
+             }
+ 
+-            let player = players[playIndex]
++            owner?.activateSession()
+ 
+-            // Ensure non-negative values for time and delay
++            let player = self.players[self.playIndex]
+             let validTime = max(time, 0)
+-            let validDelay = max(delay, 0)
+-
+-            if validDelay > 0 {
+-                // Convert delay to CMTime and add to current time
+-                let currentTime = player.currentTime()
+-                let delayTime = CMTimeMakeWithSeconds(validDelay, preferredTimescale: currentTime.timescale)
+-                let timeToPlay = CMTimeAdd(currentTime, delayTime)
+-                player.seek(to: timeToPlay)
++
++            // Seek with tolerance then play; if not yet ready, queue the seek via pendingSeekTime
++            if let item = player.currentItem, item.status == .readyToPlay {
++                self.pendingSeekTime = nil
++                self.performSeek(player: player, time: validTime)
+             } else {
+-                player.seek(to: CMTimeMakeWithSeconds(validTime, preferredTimescale: 1))
++                self.pendingSeekTime = validTime
+             }
++
+             player.play()
+-            playIndex = (playIndex + 1) % players.count
+-            startCurrentTimeUpdates()
++            self.playIndex = (self.playIndex + 1) % self.players.count
++            self.startCurrentTimeUpdates()
+         }
+     }
+ 
+     override func pause() {
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
++            guard !self.players.isEmpty && self.playIndex < self.players.count else { return }
+ 
+-            guard !players.isEmpty && playIndex < players.count else { return }
+-
+-            let player = players[playIndex]
+-            player.pause()
+-            stopCurrentTimeUpdates()
++            self.players[self.playIndex].pause()
++            self.stopCurrentTimeUpdates()
+         }
+     }
+ 
+     override func resume() {
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
++            guard !self.players.isEmpty && self.playIndex < self.players.count else { return }
+ 
+-            guard !players.isEmpty && playIndex < players.count else { return }
+-
+-            let player = players[playIndex]
++            let player = self.players[self.playIndex]
+             player.play()
++            self.cleanupNotificationObservers()
+ 
+-            // Add notification observer for when playback stops
+-            cleanupNotificationObservers()
+-
+-            // Capture weak reference to self
+             let observer = NotificationCenter.default.addObserver(
+-                forName: NSNotification.Name.AVPlayerItemDidPlayToEndTime,
++                forName: .AVPlayerItemDidPlayToEndTime,
+                 object: player.currentItem,
+-                queue: OperationQueue.main) { [weak self, weak player] notification in
+-                guard let strongSelf = self, let strongPlayer = player else { return }
+-
+-                if let currentItem = notification.object as? AVPlayerItem,
+-                   strongPlayer.currentItem === currentItem {
+-                    strongSelf.playerDidFinishPlaying(player: strongPlayer)
++                queue: .main) { [weak self, weak player] notification in
++                    guard let strongSelf = self, let strongPlayer = player else { return }
++                    if let currentItem = notification.object as? AVPlayerItem,
++                       strongPlayer.currentItem === currentItem {
++                        strongSelf.playerDidFinishPlaying(player: strongPlayer)
++                    }
+                 }
+-            }
+-            notificationObservers.append(observer)
+-            startCurrentTimeUpdates()
++            self.notificationObservers.append(observer)
++            self.startCurrentTimeUpdates()
+         }
+     }
+ 
+-    /// Stops playback on all player channels and resets them to the beginning.
+-    ///
+-    /// Stops periodic current-time updates, pauses each `AVPlayer`, seeks each player to time zero,
+-    /// sets each player's `actionAtItemEnd` to `.pause`, and resets `playIndex` to `0`.
+-    /// The operations are dispatched on the owner's audio queue.
+     override func stop() {
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
++            self.stopCurrentTimeUpdates()
++            self.pendingSeekTime = nil
+ 
+-            stopCurrentTimeUpdates()
+-
+-            for player in players {
+-                // First pause
++            for player in self.players {
+                 player.pause()
+-                // Then reset to beginning
+                 player.seek(to: .zero, completionHandler: { _ in
+-                    // Reset any loop settings
+                     player.actionAtItemEnd = .pause
+                 })
+             }
+-            // Reset playback state
+-            playIndex = 0
++            self.playIndex = 0
+         }
+     }
+ 
+-    /// Configures all player channels to loop and starts playback for the current channel.
+-    ///
+-    /// Configures all player channels to loop playback and starts playback on the current channel.
+-    ///
+-    /// Cleans existing end-of-playback observers, sets each player's end action to `.none`, and registers observers that seek the finished item back to the start and resume playback when it reaches its end. Seeks and starts the player at `playIndex`, and starts periodic current-time updates. This work is performed on the owner's audio queue.
++    /// Configures all player channels to loop via AVPlayerItemDidPlayToEndTime notifications.
+     override func loop() {
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
++            self.cleanupNotificationObservers()
+ 
+-            cleanupNotificationObservers()
+-
+-            for (index, player) in players.enumerated() {
++            for (index, player) in self.players.enumerated() {
+                 player.actionAtItemEnd = .none
+ 
+                 guard let playerItem = player.currentItem else { continue }
+@@ -228,78 +217,47 @@ public class RemoteAudioAsset: AudioAsset {
+                 let observer = NotificationCenter.default.addObserver(
+                     forName: .AVPlayerItemDidPlayToEndTime,
+                     object: playerItem,
+-                    queue: OperationQueue.main) { [weak self, weak player] notification in
+-                    guard let strongPlayer = player,
+-                          let strongSelf = self,
+-                          let item = notification.object as? AVPlayerItem,
+-                          strongPlayer.currentItem === item else { return }
+-
+-                    strongPlayer.seek(to: .zero)
+-                    strongPlayer.play()
+-                }
+-
+-                notificationObservers.append(observer)
++                    queue: .main) { [weak self, weak player] notification in
++                        guard let strongPlayer = player,
++                              let strongSelf = self,
++                              let item = notification.object as? AVPlayerItem,
++                              strongPlayer.currentItem === item else { return }
++                        strongPlayer.seek(to: .zero)
++                        strongPlayer.play()
++                    }
++                self.notificationObservers.append(observer)
+ 
+-                if index == playIndex {
++                if index == self.playIndex {
+                     player.seek(to: .zero)
+                     player.play()
+                 }
+             }
+-
+-            startCurrentTimeUpdates()
+-        }
+-    }
+-
+-    /// Removes all NotificationCenter observers tracked by this asset and clears the internal observer list.
+-    ///
+-    /// Removes all NotificationCenter observers tracked by this instance and clears the internal observer list.
+-    ///
+-    /// This unregisters each observer previously added to NotificationCenter.default and resets `notificationObservers` to an empty array.
+-    internal func cleanupNotificationObservers() {
+-        for observer in notificationObservers {
+-            NotificationCenter.default.removeObserver(observer)
+-        }
+-        notificationObservers = []
+-    }
+-
+-    @objc func playerItemDidReachEnd(notification: Notification) {
+-        owner?.executeOnAudioQueue { [weak self] in
+-            guard let self = self else { return }
+-
+-            if let playerItem = notification.object as? AVPlayerItem,
+-               let player = players.first(where: { $0.currentItem == playerItem }) {
+-                player.seek(to: .zero)
+-                player.play()
+-            }
++            self.startCurrentTimeUpdates()
+         }
+     }
+ 
+     override func unload() {
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
++            self.stopCurrentTimeUpdates()
++            self.stop()
++            self.pendingSeekTime = nil
++            self.cleanupNotificationObservers()
+ 
+-            stopCurrentTimeUpdates()
+-            stop()
+-
+-            cleanupNotificationObservers()
+-
+-            // Remove KVO observers
+-            for observer in playerObservers {
++            for observer in self.playerObservers {
+                 observer.invalidate()
+             }
+-            playerObservers = []
+-            players = []
+-            playerItems = []
++            self.playerObservers = []
++            self.players = []
++            self.playerItems = []
+         }
+     }
+ 
+     override func setVolume(volume: NSNumber!) {
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
+-
+-            // Ensure volume is in valid range (0.0-1.0)
+             let validVolume = min(max(volume.floatValue, Constant.MinVolume), Constant.MaxVolume)
+-            for player in players {
++            for player in self.players {
+                 player.volume = validVolume
+             }
+         }
+@@ -308,10 +266,8 @@ public class RemoteAudioAsset: AudioAsset {
+     override func setRate(rate: NSNumber!) {
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
+-
+-            // Ensure rate is in valid range
+             let validRate = min(max(rate.floatValue, Constant.MinRate), Constant.MaxRate)
+-            for player in players {
++            for player in self.players {
+                 player.rate = validRate
+             }
+         }
+@@ -321,13 +277,8 @@ public class RemoteAudioAsset: AudioAsset {
+         var result = false
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
+-
+-            guard !players.isEmpty && playIndex < players.count else {
+-                result = false
+-                return
+-            }
+-            let player = players[playIndex]
+-            result = player.timeControlStatus == .playing
++            guard !self.players.isEmpty && self.playIndex < self.players.count else { return }
++            result = self.players[self.playIndex].timeControlStatus == .playing
+         }
+         return result
+     }
+@@ -336,13 +287,9 @@ public class RemoteAudioAsset: AudioAsset {
+         var result: TimeInterval = 0
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
+-
+-            guard !players.isEmpty && playIndex < players.count else {
+-                result = 0
+-                return
+-            }
+-            let player = players[playIndex]
+-            result = player.currentTime().seconds
++            guard !self.players.isEmpty && self.playIndex < self.players.count else { return }
++            let t = self.players[self.playIndex].currentTime().seconds
++            result = t.isFinite ? t : 0
+         }
+         return result
+     }
+@@ -351,17 +298,18 @@ public class RemoteAudioAsset: AudioAsset {
+         var result: TimeInterval = 0
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
++            guard !self.players.isEmpty && self.playIndex < self.players.count else { return }
+ 
+-            guard !players.isEmpty && playIndex < players.count else {
+-                result = 0
+-                return
+-            }
+-            let player = players[playIndex]
+-            if player.currentItem?.duration == CMTime.indefinite {
+-                result = 0
+-                return
++            let player = self.players[self.playIndex]
++            guard let dur = player.currentItem?.duration else { return }
++
++            // Guard against .indefinite (live stream), .invalid, and NaN
++            if CMTIME_IS_NUMERIC(dur) && dur.seconds.isFinite && dur.seconds > 0 {
++                result = dur.seconds
++            } else if self.duration > 0 {
++                // Fall back to our KVO-cached value (set when status became readyToPlay)
++                result = self.duration
+             }
+-            result = player.currentItem?.duration.seconds ?? 0
+         }
+         return result
+     }
+@@ -369,24 +317,24 @@ public class RemoteAudioAsset: AudioAsset {
+     override func playWithFade(time: TimeInterval) {
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
++            guard !self.players.isEmpty && self.playIndex < self.players.count else { return }
+ 
+-            guard !players.isEmpty && playIndex < players.count else { return }
+-
+-            let player = players[playIndex]
++            let player = self.players[self.playIndex]
+ 
+             if player.timeControlStatus != .playing {
+-                player.seek(to: CMTimeMakeWithSeconds(time, preferredTimescale: 1))
+-                player.volume = 0 // Start with volume at 0
++                if let item = player.currentItem, item.status == .readyToPlay {
++                    self.performSeek(player: player, time: time)
++                } else {
++                    self.pendingSeekTime = time
++                }
++                player.volume = 0
+                 player.play()
+-                playIndex = (playIndex + 1) % players.count
+-                startCurrentTimeUpdates()
+-
+-                // Start fade-in using the parent class method
+-                startVolumeRamp(from: 0, to: initialVolume, player: player)
++                self.playIndex = (self.playIndex + 1) % self.players.count
++                self.startCurrentTimeUpdates()
++                self.startVolumeRamp(from: 0, to: self.initialVolume, player: player)
+             } else {
+-                if player.volume < initialVolume {
+-                    // Continue fade-in if already in progress
+-                    startVolumeRamp(from: player.volume, to: initialVolume, player: player)
++                if player.volume < self.initialVolume {
++                    self.startVolumeRamp(from: player.volume, to: self.initialVolume, player: player)
+                 }
+             }
+         }
+@@ -395,39 +343,44 @@ public class RemoteAudioAsset: AudioAsset {
+     override func stopWithFade() {
+         owner?.executeOnAudioQueue { [weak self] in
+             guard let self = self else { return }
+-
+-            guard !players.isEmpty && playIndex < players.count else {
+-                stop()
++            guard !self.players.isEmpty && self.playIndex < self.players.count else {
++                self.stop()
+                 return
+             }
+ 
+-            let player = players[playIndex]
+-
++            let player = self.players[self.playIndex]
+             if player.timeControlStatus == .playing {
+-                // Use parent class fade method
+-                startVolumeRamp(from: player.volume, to: 0, player: player)
+-
+-                // Schedule the stop when fade is complete
++                self.startVolumeRamp(from: player.volume, to: 0, player: player)
+                 DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(Int(self.FADEDELAY * 1000))) { [weak self, weak player] in
+                     guard let strongSelf = self, let strongPlayer = player else { return }
+-
+                     if strongPlayer.volume < strongSelf.FADESTEP {
+                         strongSelf.stop()
+                     }
+                 }
+             } else {
+-                stop()
++                self.stop()
+             }
+         }
+     }
+ 
++    // MARK: – Completion
++
++    func playerDidFinishPlaying(player: AVPlayer) {
++        owner?.executeOnAudioQueue { [weak self] in
++            guard let self = self else { return }
++            self.owner?.notifyListeners("complete", data: ["assetId": self.assetId])
++            self.onComplete?()
++        }
++    }
++
++    // MARK: – Cache
++
+     static func clearCache() {
+         DispatchQueue.global(qos: .background).sync {
+             let urls = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)
+             if let cachePath = urls.first {
+                 do {
+                     let fileURLs = try FileManager.default.contentsOfDirectory(at: cachePath, includingPropertiesForKeys: nil)
+-                    // Clear all audio file types
+                     let audioExtensions = ["mp3", "wav", "aac", "m4a", "ogg", "mp4", "caf", "aiff"]
+                     for fileURL in fileURLs where audioExtensions.contains(fileURL.pathExtension.lowercased()) {
+                         try FileManager.default.removeItem(at: fileURL)
+@@ -439,17 +392,20 @@ public class RemoteAudioAsset: AudioAsset {
+         }
+     }
+ 
+-    /// Gradually adjusts the given player's volume from a start level to an end level over the configured fade duration.
+-    ///
+-    /// The method stops any existing fade timer, sets the player's volume to `startVolume`, and schedules a `Timer` on the main run loop that increments the volume in steps determined by `FADESTEP` and `FADEDELAY`. When the ramp completes the player's volume is set to `endVolume` and the internal `fadeTimer` reference is cleared.
+-    /// - Parameters:
+-    ///   - startVolume: The initial volume level to apply before beginning the ramp (typically 0.0–1.0).
+-    ///   - endVolume: The target volume level to reach at the end of the ramp (typically 0.0–1.0).
+-    ///   - player: The `AVPlayer` whose `volume` property will be adjusted.
++    // MARK: – Observer cleanup
++
++    internal func cleanupNotificationObservers() {
++        for observer in notificationObservers {
++            NotificationCenter.default.removeObserver(observer)
++        }
++        notificationObservers = []
++    }
++
++    // MARK: – Private AVPlayer volume ramp (mirrors AudioAsset but for AVPlayer)
++
+     private func startVolumeRamp(from startVolume: Float, to endVolume: Float, player: AVPlayer) {
+         player.volume = startVolume
+ 
+-        // Calculate steps
+         let steps = abs(endVolume - startVolume) / FADESTEP
+         guard steps > 0 else { return }
+ 
+@@ -459,7 +415,6 @@ public class RemoteAudioAsset: AudioAsset {
+ 
+         stopFadeTimer()
+ 
+-        // Ensure timer creation happens on main thread
+         DispatchQueue.main.async { [weak self, weak player] in
+             guard let self = self else { return }
+ 
+@@ -472,17 +427,12 @@ public class RemoteAudioAsset: AudioAsset {
+                 currentStep += 1
+                 let progress = Float(currentStep) / Float(totalSteps)
+                 let newVolume = startVolume + progress * (endVolume - startVolume)
+-
+                 strongPlayer.volume = newVolume
+ 
+                 if currentStep >= totalSteps {
+                     strongPlayer.volume = endVolume
+                     timer.invalidate()
+-
+-                    // Update timer reference on main thread
+-                    DispatchQueue.main.async {
+-                        strongSelf.fadeTimer = nil
+-                    }
++                    DispatchQueue.main.async { strongSelf.fadeTimer = nil }
+                 }
+             }
+ 
+@@ -491,4 +441,16 @@ public class RemoteAudioAsset: AudioAsset {
+             }
+         }
+     }
++
++    // MARK: – deinit
++
++    deinit {
++        for observer in playerObservers { observer.invalidate() }
++        for observer in notificationObservers { NotificationCenter.default.removeObserver(observer) }
++        for player in players { player.pause() }
++        playerItems = []
++        players = []
++        playerObservers = []
++        notificationObservers = []
++    }
+ }

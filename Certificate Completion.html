@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>School of Breath — Elemental Achievement Certificate</title>
+  <style>
+    :root{
+      --bg0:#070b18;
+      --bg1:#0b1631;
+      --gold:#c8a66a; /* antique gold */
+      --gold2:#b88f52;
+      --tiny: rgba(200,166,106,0.55);
+    }
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      background: radial-gradient(1200px 800px at 50% 20%, rgba(200,166,106,0.05), transparent 60%),
+                  radial-gradient(900px 700px at 20% 80%, rgba(200,166,106,0.03), transparent 60%),
+                  linear-gradient(180deg, var(--bg1), var(--bg0));
+      color: var(--gold);
+      font-family: Arial, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      display:flex;
+      min-height:100%;
+    }
+    .wrap{
+      width: min(1200px, 100%);
+      margin: 0 auto;
+      padding: 18px 16px 24px;
+      display:grid;
+      grid-template-columns: 360px 1fr;
+      gap: 16px;
+    }
+    @media (max-width: 980px){
+      .wrap{ grid-template-columns: 1fr; }
+    }
+    .panel{
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      border: 1px solid rgba(200,166,106,0.18);
+      border-radius: 18px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+      overflow:hidden;
+    }
+    .controls{ padding: 16px 14px; }
+    .brandline{
+      padding: 14px 14px 0;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+    }
+    .brandline .title{
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 18px;
+      letter-spacing: 0.06em;
+      color: var(--gold);
+      opacity: 0.95;
+    }
+    .brandline .note{
+      font-size: 11px;
+      color: var(--tiny);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      white-space:nowrap;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .row{ margin-top: 10px; }
+    label{
+      display:block;
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--tiny);
+      margin: 0 0 6px;
+    }
+    input, select, button{
+      width:100%;
+      border-radius: 14px;
+      border: 1px solid rgba(200,166,106,0.22);
+      background: rgba(0,0,0,0.22);
+      color: var(--gold);
+      padding: 10px 12px;
+      font-size: 14px;
+      outline:none;
+    }
+    input::placeholder{ color: rgba(200,166,106,0.45); }
+    .toggle{ display:flex; gap:8px; }
+    .toggle button{
+      flex:1;
+      cursor:pointer;
+      background: rgba(0,0,0,0.22);
+      border: 1px solid rgba(200,166,106,0.22);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-size: 11px;
+      padding: 10px 10px;
+    }
+    .toggle button.active{
+      background: linear-gradient(180deg, rgba(200,166,106,0.18), rgba(0,0,0,0.22));
+      border-color: rgba(200,166,106,0.35);
+      box-shadow: 0 10px 22px rgba(0,0,0,0.35);
+    }
+    .actions{ display:flex; gap:10px; margin-top: 12px; }
+    .actions button{
+      cursor:pointer;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-size: 11px;
+      padding: 12px 10px;
+    }
+    .actions button.primary{
+      background: linear-gradient(180deg, rgba(200,166,106,0.22), rgba(0,0,0,0.22));
+      border-color: rgba(200,166,106,0.38);
+    }
+    .helper{
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(200,166,106,0.14);
+      background: rgba(0,0,0,0.18);
+      color: rgba(200,166,106,0.62);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+    .preview{
+      display:flex;
+      flex-direction:column;
+      padding: 10px;
+      gap: 10px;
+    }
+    .canvasWrap{
+      padding: 10px;
+      border-radius: 18px;
+      border: 1px solid rgba(200,166,106,0.18);
+      background: rgba(0,0,0,0.18);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height: 520px;
+    }
+    canvas{
+      width: min(520px, 100%);
+      height: auto;
+      border-radius: 14px;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.55);
+      background: transparent;
+    }
+    .foot{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      align-items:center;
+      padding: 0 8px 8px;
+      color: rgba(200,166,106,0.55);
+      font-size: 11px;
+      letter-spacing: 0.10em;
+      text-transform: uppercase;
+    }
+  </style>
+  <noscript>This app requires JavaScript enabled.</noscript>
+</head>
+<body>
+  <div class="wrap">
+    <div class="panel">
+      <div class="brandline">
+        <div class="title">Elemental Achievement Certificate</div>
+        <div class="note">Offline · Canvas PNG</div>
+      </div>
+      <div class="controls">
+        <div class="row">
+          <label>Export Size</label>
+          <div class="toggle">
+            <button id="btnStory" class="active" type="button">Story 1080×1920</button>
+            <button id="btnSquare" type="button">Square 1080×1080</button>
+          </div>
+        </div>
+        <div class="grid">
+          <div>
+            <label>Element</label>
+            <select id="element">
+              <option>Fire</option>
+              <option>Earth</option>
+              <option>Water</option>
+              <option>Air</option>
+              <option>Space</option>
+            </select>
+          </div>
+          <div>
+            <label>Message</label>
+            <select id="messageIndex">
+              <option value="0">Message 1</option>
+              <option value="1">Message 2</option>
+              <option value="2">Message 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="grid">
+          <div>
+            <label>User Name</label>
+            <input id="name" value="Abhi Duggal" />
+          </div>
+          <div>
+            <label>Minutes</label>
+            <input id="minutes" type="number" min="1" step="1" value="10" />
+          </div>
+        </div>
+        <div class="grid">
+          <div>
+            <label>Date</label>
+            <input id="date" />
+          </div>
+          <div>
+            <label>Milestone line</label>
+            <input id="milestone" value="You showed up for yourself today." />
+          </div>
+        </div>
+        <div class="row">
+          <label>Practice / Session Title (Approved Only)</label>
+          <select id="approvedTitle"></select>
+        </div>
+        <div class="actions">
+          <button id="btnDownload" class="primary" type="button">Download PNG</button>
+          <button id="btnRandom" type="button">Randomize Message</button>
+        </div>
+        <div class="helper">
+          <div><b>Note:</b> This generator enforces approved wording for titles only.</div>
+          <div>All rendered text uses antique gold accents on a deep indigo gradient with procedural grain.</div>
+        </div>
+      </div>
+    </div>
+    <div class="panel preview">
+      <div class="canvasWrap">
+        <canvas id="c" width="1080" height="1920"></canvas>
+      </div>
+      <div class="foot">
+        <div>Live preview</div>
+        <div>The School of Breath</div>
+      </div>
+    </div>
+  </div>
+<script>
+(() => {
+  const APPROVED_TITLES = [
+    "9-Day Breathwork Challenge (Energy, Health & Vitality)",
+    "12-Day Third Eye Activation",
+    "21-Week Kundalini Awakening",
+    "9-Day Breathwork Challenge for Unconditional Bliss",
+    "9-Day Meditation (Mental Clarity & Inner Peace)",
+    "Holistic Awakening Membership",
+    "Sleep Mastery",
+    "Swara Yoga",
+    "Drift into Tranquility",
+    "Embrace Imperfections",
+    "Quiet The Ego Mind",
+    "Yoga Nidra for Healing",
+    "The Key to Happiness",
+    "7 Chakras Pranayama Breathing",
+    "Journey to Tranquility",
+    "Master Stress Relief",
+    "Skull Shining Breath",
+    "Fire Cleansing Breath",
+  ];
+
+  const ELEMENT_COPY = {
+    Fire: {
+      keyword: "Agni",
+      messages: [
+        "You awakened your inner fire.",
+        "Through breath, you transformed energy into clarity.",
+        "Discipline became devotion today.",
+      ],
+      affirmation: "I act with clarity and courage.",
+      motif: "triangle",
+    },
+    Earth: {
+      keyword: "Prithvi",
+      messages: [
+        "You rooted yourself in presence.",
+        "Your breath strengthened your foundation.",
+        "Consistency is now part of your nervous system.",
+      ],
+      affirmation: "I am steady and supported.",
+      motif: "square",
+    },
+    Water: {
+      keyword: "Apas",
+      messages: [
+        "You allowed emotion to move.",
+        "Breath softened what the mind could not.",
+        "Today, you chose compassion over control.",
+      ],
+      affirmation: "I allow life to move through me.",
+      motif: "wave",
+    },
+    Air: {
+      keyword: "Vayu",
+      messages: [
+        "You balanced the winds within.",
+        "Your breath restored harmony between effort and ease.",
+        "Awareness became effortless today.",
+      ],
+      affirmation: "Balance is my natural state.",
+      motif: "spiral",
+    },
+    Space: {
+      keyword: "Akasha",
+      messages: [
+        "You rested in awareness.",
+        "Breath opened space beyond thought.",
+        "Nothing to fix. Nothing to add.",
+      ],
+      affirmation: "I rest as awareness.",
+      motif: "halo",
+    },
+  };
+
+  const BRAND_LINE = "The School of Breath";
+  const GOLD = "#c8a66a";
+  const GOLD2 = "#b88f52";
+
+  const $ = (id) => document.getElementById(id);
+  const canvas = $("c");
+  const ctx = canvas.getContext("2d");
+
+  const state = {
+    format: "story",
+    element: "Fire",
+    messageIndex: 0,
+    name: "Abhi Duggal",
+    minutes: 10,
+    date: "",
+    milestone: "You showed up for yourself today.",
+    approvedTitle: APPROVED_TITLES[0],
+  };
+
+  function formatDateLong(d){
+    const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+  }
+
+  function setCanvasSize(){
+    if(state.format === "story"){
+      canvas.width = 1080;
+      canvas.height = 1920;
+    } else {
+      canvas.width = 1080;
+      canvas.height = 1080;
+    }
+  }
+
+  function seedFromString(s){
+    let h = 2166136261 >>> 0;
+    for(let i=0;i<s.length;i++){
+      h ^= s.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return h >>> 0;
+  }
+  function mulberry32(a){
+    return function(){
+      let t = a += 0x6D2B79F5;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  function wrapText(ctx, text, maxWidth){
+    const words = text.split(" ");
+    const lines = [];
+    let line = "";
+    for(const w of words){
+      const test = line ? (line + " " + w) : w;
+      if(ctx.measureText(test).width <= maxWidth){
+        line = test;
+      } else {
+        if(line) lines.push(line);
+        line = w;
+      }
+    }
+    if(line) lines.push(line);
+    return lines;
+  }
+
+  function drawBackground(w,h){
+    const g = ctx.createLinearGradient(0, 0, 0, h);
+    g.addColorStop(0, "#0a1634");
+    g.addColorStop(0.45, "#070b18");
+    g.addColorStop(1, "#050814");
+    ctx.fillStyle = g;
+    ctx.fillRect(0,0,w,h);
+
+    const vg = ctx.createRadialGradient(w*0.5, h*0.32, Math.min(w,h)*0.2, w*0.5, h*0.55, Math.max(w,h)*0.75);
+    vg.addColorStop(0, "rgba(0,0,0,0)");
+    vg.addColorStop(1, "rgba(0,0,0,0.55)");
+    ctx.fillStyle = vg;
+    ctx.fillRect(0,0,w,h);
+
+    const seed = seedFromString(state.element + "|" + state.name + "|" + state.date + "|" + state.format);
+    const rnd = mulberry32(seed);
+    const grain = ctx.createImageData(w, h);
+    const data = grain.data;
+    for(let i=0;i<data.length;i+=4){
+      const n = (rnd()*2-1);
+      const v = 18 + n*18;
+      data[i] = v; data[i+1] = v; data[i+2] = v;
+      data[i+3] = 18;
+    }
+    ctx.putImageData(grain, 0, 0);
+  }
+
+  function goldStroke(width){
+    ctx.strokeStyle = GOLD;
+    ctx.globalAlpha = 0.9;
+    ctx.lineWidth = width;
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
+  }
+
+  function drawMotif(motif, cx, cy, size){
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.globalAlpha = 0.14;
+    goldStroke(3);
+
+    if(motif === "triangle"){
+      const r = size;
+      ctx.beginPath();
+      ctx.moveTo(0, -r);
+      ctx.lineTo(r*0.9, r*0.8);
+      ctx.lineTo(-r*0.9, r*0.8);
+      ctx.closePath();
+      ctx.stroke();
+    } else if(motif === "square"){
+      const r = size*0.9;
+      ctx.strokeRect(-r, -r, r*2, r*2);
+    } else if(motif === "wave"){
+      const r = size;
+      ctx.beginPath();
+      for(let x=-r; x<=r; x+=4){
+        const y = Math.sin((x/r)*Math.PI*2) * (r*0.18);
+        if(x===-r) ctx.moveTo(x,y);
+        else ctx.lineTo(x,y);
+      }
+      ctx.stroke();
+    } else if(motif === "spiral"){
+      const turns = 3.2;
+      const step = 0.14;
+      ctx.beginPath();
+      for(let t=0; t<=turns; t+=step){
+        const a = t * Math.PI * 2;
+        const rr = (t/turns) * size;
+        const x = Math.cos(a) * rr;
+        const y = Math.sin(a) * rr;
+        if(t===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+      }
+      ctx.stroke();
+    } else if(motif === "halo"){
+      ctx.beginPath();
+      ctx.arc(0, 0, size*0.95, 0, Math.PI*2);
+      ctx.stroke();
+      ctx.globalAlpha = 0.18;
+      ctx.beginPath();
+      ctx.arc(0, 0, size*0.12, 0, Math.PI*2);
+      ctx.fillStyle = GOLD;
+      ctx.fill();
+    }
+    ctx.restore();
+    ctx.globalAlpha = 1;
+  }
+
+  function drawSymbol(element, cx, cy){
+    // Minimal line symbols (no images)
+    ctx.save();
+    ctx.translate(cx, cy);
+    goldStroke(6);
+    ctx.globalAlpha = 0.92;
+
+    if(element === "Fire"){
+      // Upward triangle + inner flame stroke
+      ctx.beginPath();
+      ctx.moveTo(0, -46);
+      ctx.lineTo(40, 30);
+      ctx.lineTo(-40, 30);
+      ctx.closePath();
+      ctx.stroke();
+      ctx.globalAlpha = 0.55;
+      goldStroke(4);
+      ctx.beginPath();
+      ctx.moveTo(0, 18);
+      ctx.quadraticCurveTo(10, 4, 0, -16);
+      ctx.quadraticCurveTo(-12, 0, 0, 18);
+      ctx.stroke();
+    } else if(element === "Earth"){
+      // Square + center dot
+      ctx.strokeRect(-42, -42, 84, 84);
+      ctx.globalAlpha = 0.65;
+      ctx.fillStyle = GOLD;
+      ctx.beginPath();
+      ctx.arc(0, 0, 7, 0, Math.PI*2);
+      ctx.fill();
+    } else if(element === "Water"){
+      // Wave + droplet dot
+      ctx.beginPath();
+      ctx.moveTo(-52, 6);
+      ctx.bezierCurveTo(-36, -22, -10, -22, 6, 6);
+      ctx.bezierCurveTo(22, 34, 48, 34, 64, 6);
+      ctx.stroke();
+      ctx.globalAlpha = 0.65;
+      ctx.beginPath();
+      ctx.arc(-40, -22, 6, 0, Math.PI*2);
+      ctx.fillStyle = GOLD;
+      ctx.fill();
+    } else if(element === "Air"){
+      // Spiral (tight)
+      ctx.globalAlpha = 0.92;
+      goldStroke(6);
+      ctx.beginPath();
+      const turns = 2.6, step = 0.11;
+      for(let t=0;t<=turns;t+=step){
+        const a = t*Math.PI*2;
+        const r = (t/turns)*44;
+        const x = Math.cos(a)*r;
+        const y = Math.sin(a)*r;
+        if(t===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+      }
+      ctx.stroke();
+    } else if(element === "Space"){
+      // Halo + dot
+      ctx.beginPath();
+      ctx.arc(0, 0, 46, 0, Math.PI*2);
+      ctx.stroke();
+      ctx.globalAlpha = 0.7;
+      ctx.beginPath();
+      ctx.arc(0, 0, 7, 0, Math.PI*2);
+      ctx.fillStyle = GOLD;
+      ctx.fill();
+    }
+
+    ctx.restore();
+    ctx.globalAlpha = 1;
+  }
+
+  function drawCertificate(){
+    setCanvasSize();
+    const w = canvas.width, h = canvas.height;
+    ctx.clearRect(0,0,w,h);
+    drawBackground(w,h);
+
+    const safe = Math.round(w * 0.09);
+    const cx = w/2;
+    const topY = Math.round(h * 0.12);
+
+    // Subtle motif behind content
+    drawMotif(ELEMENT_COPY[state.element].motif, cx, h*0.38, Math.min(w,h)*0.28);
+
+    // Top: Symbol + Element · Keyword
+    drawSymbol(state.element, cx, topY);
+    ctx.fillStyle = GOLD;
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+
+    ctx.font = `600 26px Arial, system-ui, sans-serif`;
+    ctx.globalAlpha = 0.85;
+    ctx.fillText(`${state.element} · ${ELEMENT_COPY[state.element].keyword}`, cx, topY + 86);
+    ctx.globalAlpha = 1;
+
+    // Middle: name + message + approved title
+    const nameY = Math.round(h * 0.33);
+    ctx.font = `400 76px Georgia, "Times New Roman", Times, serif`;
+    ctx.fillStyle = GOLD;
+    ctx.fillText(state.name, cx, nameY);
+
+    const message = ELEMENT_COPY[state.element].messages[state.messageIndex] || ELEMENT_COPY[state.element].messages[0];
+    ctx.font = `400 56px Georgia, "Times New Roman", Times, serif`;
+    ctx.fillStyle = GOLD;
+    const maxMessageW = w - safe*2;
+    const lines = wrapText(ctx, message, maxMessageW);
+    const msgLines = lines.slice(0, 2);
+    const msgY = nameY + 120;
+    const lineH = 64;
+    for(let i=0;i<msgLines.length;i++){
+      ctx.fillText(msgLines[i], cx, msgY + i*lineH);
+    }
+
+    // Approved title
+    ctx.font = `600 30px Arial, system-ui, sans-serif`;
+    ctx.fillStyle = GOLD2;
+    ctx.globalAlpha = 0.92;
+    ctx.fillText(state.approvedTitle, cx, msgY + msgLines.length*lineH + 70);
+    ctx.globalAlpha = 1;
+
+    // Lower: date line + minutes line + milestone + brand
+    const lowerY = Math.round(h * 0.78);
+    ctx.font = `600 22px Arial, system-ui, sans-serif`;
+    ctx.fillStyle = GOLD2;
+    ctx.globalAlpha = 0.85;
+    ctx.fillText(`In Presence · ${state.date}`, cx, lowerY);
+    ctx.globalAlpha = 1;
+
+    ctx.font = `600 24px Arial, system-ui, sans-serif`;
+    ctx.fillStyle = GOLD;
+    ctx.fillText(`${state.minutes} minutes of ${state.approvedTitle}`, cx, lowerY + 52);
+
+    // Milestone line (user-provided)
+    ctx.font = `400 30px Georgia, "Times New Roman", Times, serif`;
+    ctx.fillStyle = GOLD2;
+    ctx.globalAlpha = 0.9;
+    const milLines = wrapText(ctx, state.milestone, w - safe*2).slice(0, 2);
+    for(let i=0;i<milLines.length;i++){
+      ctx.fillText(milLines[i], cx, lowerY + 112 + i*40);
+    }
+    ctx.globalAlpha = 1;
+
+    // Affirmation (element)
+    ctx.font = `400 24px Georgia, "Times New Roman", Times, serif`;
+    ctx.fillStyle = GOLD;
+    ctx.globalAlpha = 0.9;
+    ctx.fillText(ELEMENT_COPY[state.element].affirmation, cx, lowerY + 200);
+    ctx.globalAlpha = 1;
+
+    // Brand line (fixed)
+    ctx.font = `400 26px Georgia, "Times New Roman", Times, serif`;
+    ctx.fillStyle = GOLD2;
+    ctx.globalAlpha = 0.7;
+    ctx.fillText(BRAND_LINE, cx, h - Math.round(h*0.08));
+    ctx.globalAlpha = 1;
+  }
+
+  function syncFromInputs(){
+    state.element = $("element").value;
+    state.messageIndex = parseInt($("messageIndex").value, 10) || 0;
+    state.name = $("name").value || "Abhi Duggal";
+    state.minutes = Math.max(1, parseInt($("minutes").value,10) || 10);
+    state.date = $("date").value || state.date;
+    state.milestone = $("milestone").value || "You showed up for yourself today.";
+    state.approvedTitle = $("approvedTitle").value || APPROVED_TITLES[0];
+    drawCertificate();
+  }
+
+  function downloadPNG(){
+    const a = document.createElement("a");
+    const fileBase = `certificate-${state.format}-${state.element}`.toLowerCase().replace(/[^a-z0-9]+/g,'-');
+    a.download = `${fileBase}.png`;
+    a.href = canvas.toDataURL("image/png");
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  }
+
+  function setFormat(fmt){
+    state.format = fmt;
+    $("btnStory").classList.toggle("active", fmt === "story");
+    $("btnSquare").classList.toggle("active", fmt === "square");
+    drawCertificate();
+  }
+
+  function randomizeMessage(){
+    const idx = Math.floor(Math.random()*3);
+    $("messageIndex").value = String(idx);
+    syncFromInputs();
+  }
+
+  // init UI
+  const titleSelect = $("approvedTitle");
+  for(const t of APPROVED_TITLES){
+    const opt = document.createElement("option");
+    opt.textContent = t;
+    opt.value = t;
+    titleSelect.appendChild(opt);
+  }
+
+  // defaults
+  const today = new Date();
+  state.date = formatDateLong(today);
+  $("date").value = state.date;
+  titleSelect.value = state.approvedTitle;
+
+  // events
+  ["element","messageIndex","name","minutes","date","milestone","approvedTitle"].forEach(id => {
+    $(id).addEventListener("input", syncFromInputs);
+    $(id).addEventListener("change", syncFromInputs);
+  });
+  $("btnDownload").addEventListener("click", downloadPNG);
+  $("btnRandom").addEventListener("click", randomizeMessage);
+  $("btnStory").addEventListener("click", () => setFormat("story"));
+  $("btnSquare").addEventListener("click", () => setFormat("square"));
+
+  drawCertificate();
+})();
+</script>
+</body>
+</html>
+

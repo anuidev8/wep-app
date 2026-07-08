@@ -1,0 +1,89 @@
+{
+  "project_info": {
+    "project_number": "116109207837",
+    "project_id": "sleepmusicapp-413415",
+    "storage_bucket": "sleepmusicapp-413415.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116109207837:android:bcb697bdfb66311520d9f4",
+        "android_client_info": {
+          "package_name": "com.meditatewithabhi.theschoolofbreath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116109207837-6271bcm2shdbq6c63389m59m47jkblc1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meditatewithabhi.theschoolofbreath",
+            "certificate_hash": "98d914366bfd0dddf74bc8da6c27e2a40fcaeabc"
+          }
+        },
+        {
+          "client_id": "116109207837-636tpf0jf33ssafqeoklcqt08c6h9ovb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meditatewithabhi.theschoolofbreath",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "116109207837-70kudog8jt7bem14v9c4nng1k814m87b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meditatewithabhi.theschoolofbreath",
+            "certificate_hash": "9fe2bd83fcb4bb6543a45cb56d4027eab8e16f3a"
+          }
+        },
+        {
+          "client_id": "116109207837-dld9qqr7v617gf998ki1cuucr7u8frf5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meditatewithabhi.theschoolofbreath",
+            "certificate_hash": "057c3ac8057dcfbf1eee69909c73118e46af99d6"
+          }
+        },
+        {
+          "client_id": "116109207837-ofvu7jpdujb18l346jdhhv69efa6n13e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meditatewithabhi.theschoolofbreath",
+            "certificate_hash": "a0021a69d771a2161e6c79b11f9b0829d594b6dc"
+          }
+        },
+        {
+          "client_id": "116109207837-nhhjo9bkk5nq3ha2hbq2judfum6d33g5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4MaT1XxsSLysaeLA1oH7TFiXDdrsFr2A"
+        },
+        {
+          "current_key": "AIzaSyDhWLcb3i6ZEVcTtaWORDMRo3NaOoS5LkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116109207837-nhhjo9bkk5nq3ha2hbq2judfum6d33g5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "116109207837-593vkmimarif4bvhvqjgrp7thccqal91.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.meditatewithabhi.theschoolofbreath"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
